@@ -1,6 +1,7 @@
-salaries = [1000, 2000, 3000, 4000, 5000]
 
-new_salaries = []
+students = ["Aaa", "Bbb", "Ccc", "Ddd"]
 
-[salary * 2 if salary < 3000 else salary * 3 if salary == 4000 else salary * 1.5 for salary in salaries]
+students_no = ["Aaa", "Ccc"]
+
+[student.upper() if student in students_no else student.lower() for student in students]
 
